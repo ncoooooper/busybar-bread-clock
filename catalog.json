@@ -2,5 +2,5 @@
   "category": "utilities",
   "short_description": "Guide a loaf from mixing through folds to proofing using the times you actually start each step.",
   "description": "Guide a loaf from mixing through folds to proofing using the times you actually start each step. Click to mark a completed stage and start the next timer from now. Turn the wheel to adjust the duration of the active stage in five-minute increments. Late folds naturally shift the rest of the recipe. Start previews total remaining time. Hold Start opens a fresh loaf.",
-  "changelog": "First public version."
+  "changelog": "New screen transitions and high-contrast LED previews."
 }

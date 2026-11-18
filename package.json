@@ -1,7 +1,7 @@
 {
   "name": "busybar-bread-clock",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Guide a loaf from mixing through folds to proofing using the times you actually start each step.",
   "author": "ncoooooper",
   "type": "module",

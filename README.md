@@ -4,6 +4,20 @@ Guide a loaf from mixing through folds to proofing using the times you actually 
 
 A late fold changes when the dough will be ready. Bread Clock starts each new timer when you actually touch the dough, so a delay at the bench carries through to proofing without rewriting a schedule.
 
+## Screen transitions
+
+Follow the dough from one step to the next, then adjust the time left.
+
+![Bread Clock front display. Follow the dough from one step to the next, then adjust the time left.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Bread Clock rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Start a loaf and work through the folds
 
 1. At the mixing bowl, click the wheel on **Start loaf**. The first 30 minutes cover mixing and autolyse.
@@ -36,6 +50,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)

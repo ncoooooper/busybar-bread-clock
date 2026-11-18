@@ -1,0 +1,59 @@
+{
+  "app": "busybar-bread-clock",
+  "sha256": "d81eccc214dad0c9668b6f19952f28a23e8366c76f19eead483ae3e416a8c461",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.breadclock",
+    "sha256": "d81eccc214dad0c9668b6f19952f28a23e8366c76f19eead483ae3e416a8c461",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 96.4,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
+  "firmware": "1.3.1",
+  "cell": 16,
+  "lit": 14,
+  "front": [
+    72,
+    16
+  ],
+  "rear": [
+    160,
+    80
+  ],
+  "captures": [
+    {
+      "mode": "classic",
+      "guides": [
+        "fold-to-bulk",
+        "final-proof-overview"
+      ],
+      "tour": "screen-transitions",
+      "input": [
+        [
+          "ok"
+        ],
+        [
+          "up",
+          "ok",
+          "start"
+        ],
+        [
+          "down",
+          "up",
+          "ok"
+        ]
+      ],
+      "distinct_frames": [
+        9,
+        19,
+        44
+      ],
+      "rear_frames": 4,
+      "rear_tour": "screen-transitions-rear",
+      "exit": "finished"
+    }
+  ]
+}
