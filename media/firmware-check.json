@@ -9,7 +9,7 @@
     "start"
   ],
   "frames": 54,
-  "distinct_frames": 18,
-  "exit": "App io.ncoooooper.breadclock exited: finished; heap peak 84.3 of 128 KiB",
-  "sha256": "993671f3d8f0dad35e1557ee1ce3241ad2b56286cf23a15b28a2bb050ccdc29c"
+  "distinct_frames": 16,
+  "exit": "App io.ncoooooper.breadclock exited: finished; heap peak 84.4 of 128 KiB",
+  "sha256": "bd28d3b4bd77f66d649234a292238c60d0dd9b460d5fa5afa34f368974fbd1b5"
 }
