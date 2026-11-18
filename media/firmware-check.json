@@ -1,0 +1,15 @@
+{
+  "id": "BB-033",
+  "source": "Interactive device controls and persistent local state on BUSY Bar firmware.",
+  "scenario": "Started autolyse, added five minutes, advanced to the first fold and displayed total remaining time.",
+  "keys": [
+    "ok",
+    "up",
+    "ok",
+    "start"
+  ],
+  "frames": 54,
+  "distinct_frames": 18,
+  "exit": "App io.ncoooooper.breadclock exited: finished; heap peak 84.3 of 128 KiB",
+  "sha256": "993671f3d8f0dad35e1557ee1ce3241ad2b56286cf23a15b28a2bb050ccdc29c"
+}
