@@ -2,7 +2,7 @@ import {desk,duration} from "@shared/desk";
 
 const names=["Mix / autolyse","Fold one","Fold two","Fold three","Bulk rise","Final proof"];
 const initial=()=>({step:0,due:0,lengths:[30,30,30,30,90,60],overview:false});
-desk({name:"Bread Clock",accent:"#ECA64C",motion:{"motif":"pour","color":"#ECA64C","shine":"#FFF0BB"},initial,render:(s,now)=>{
+desk({name:"Bread Clock",accent:"#ECA64C",motion:{enabled:false},initial,render:(s,now)=>{
  const done=s.step>=names.length,remain=s.due?Math.max(0,s.due-now):(s.lengths[s.step]||0)*60000;
  const total=remain+s.lengths.slice(s.step+1).reduce((a,b)=>a+b,0)*60000;
  return {title:done?"Bread clock":s.overview?"Whole loaf":names[s.step],value:done?"Bake now":s.overview?Math.ceil(total/60000)+" min":s.due?duration(remain):"Start loaf",
